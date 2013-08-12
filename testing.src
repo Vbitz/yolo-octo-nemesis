@@ -1,0 +1,8 @@
+main:
+# exit right now
+	mov 16 $0
+	mov 234 $1
+	add $0 $1
+	mov 111 $2
+	sub $0 $2
+	brk
